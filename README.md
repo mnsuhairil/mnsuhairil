@@ -13,9 +13,9 @@
 </p>
 
 <div align="center">
-  <img align="center" height="200px" weight="600" src="https://github-readme-stats.vercel.app/api/top-langs?username=mnsuhairil&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="mnsuhairil" />
-  <img align="center" height="200px" weight="600" src="https://github-readme-stats.vercel.app/api?username=mnsuhairil&show_icons=true&locale=en&theme=tokyonight" alt="mnsuhairil" />
-  <img align="center" height="200px" weight="600" src="https://github-readme-streak-stats.herokuapp.com/?user=mnsuhairil&&theme=tokyonight" alt="mnsuhairil" />
+  <img align="center" height="150px" weight="400" src="https://github-readme-stats.vercel.app/api/top-langs?username=mnsuhairil&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="mnsuhairil" />
+  <img align="center" height="1500px" weight="400" src="https://github-readme-stats.vercel.app/api?username=mnsuhairil&show_icons=true&locale=en&theme=tokyonight" alt="mnsuhairil" />
+  <img align="center" height="150px" weight="400" src="https://github-readme-streak-stats.herokuapp.com/?user=mnsuhairil&&theme=tokyonight" alt="mnsuhairil" />
 </div>
 
 
