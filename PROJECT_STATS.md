@@ -28,7 +28,7 @@
 - **lab6c** → Commits: `1` | PRs: `0` | Issues: `0`
 - **LabAssignmentCSC660** → Commits: `0` | PRs: `0` | Issues: `0`
 - **live-wallpaper-inumaki-toge** → Commits: `5` | PRs: `0` | Issues: `0`
-- **mnsuhairil** → Commits: `14` | PRs: `0` | Issues: `0`
+- **mnsuhairil** → Commits: `16` | PRs: `0` | Issues: `0`
 - **MyWebsite** → Commits: `1` | PRs: `0` | Issues: `0`
 - **newsfeed** → Commits: `1` | PRs: `0` | Issues: `0`
 - **personal-portfolio** → Commits: `26` | PRs: `0` | Issues: `0`
