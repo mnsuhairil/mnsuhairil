@@ -61,9 +61,6 @@
 <p align="center">
 <img src="https://readme-jokes.vercel.app/api?theme=radical" alt="Jokes Card"/>
 </p>
-
----
-
 <!-- 🌊 Animated Footer -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:6a5acd,100:ff4b5c&section=footer" />
