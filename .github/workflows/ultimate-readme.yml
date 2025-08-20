@@ -1,0 +1,83 @@
+name: ♻️ Ultimate README Updater
+
+
+on:
+  schedule:
+    - cron: "13 1 * * *" # daily ~01:13 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+
+# --- Generate 3D contribution images ---
+      - name: 3D Contributions
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        with:
+          username: mnsuhairil
+          base: "header,calendar" # create the folder profile-3d-contrib
+          env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      
+      
+      # --- GitHub Metrics Dashboard (requires classic PAT in METRICS_TOKEN) ---
+      - name: Generate Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: mnsuhairil
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kuching
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_lines: yes
+          plugin_followup: yes
+          plugin_stars: yes
+      
+      
+      # --- WakaTime coding stats (needs WAKATIME_API_KEY) ---
+      - name: Update WakaTime section
+        uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: true
+          TIME_RANGE: last_7_days
+          LANG_COUNT: 6
+          SHOW_TOTAL: true
+          STOP_AT_WEEK: true
+      
+      
+      # --- Python utilities for tips/quotes/theme ---
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      
+      
+      - name: Update coding tip / quote / theme
+        run: |
+          python scripts/generate_coding_tip.py
+          python scripts/update_quote.py
+          python scripts/update_theme.py  
+      
+      
+      - name: Commit & push
+        run: |
+        if [[ -n "$(git status --porcelain)" ]]; then
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: refresh README (metrics/waka/tip/quote/theme)"
+          git push
+        else
+          echo "No changes"
+        fi
