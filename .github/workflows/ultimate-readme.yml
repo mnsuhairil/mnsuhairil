@@ -15,14 +15,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # --- 3D Contributions ---
-      - name: 3D Contributions
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          USERNAME: mnsuhairil
-          BASE: "header,calendar"
-
       # --- GitHub Metrics Dashboard ---
       - name: Generate Metrics
         uses: lowlighter/metrics@latest
