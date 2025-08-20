@@ -27,12 +27,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       
       
-      # --- GitHub Metrics Dashboard (requires classic PAT in METRICS_TOKEN) ---
+      # --- GitHub Metrics Dashboard (requires classic PAT in GH_TOKEN) ---
       - name: Generate Metrics
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           user: mnsuhairil
           template: classic
           base: header, activity, community, repositories, metadata
