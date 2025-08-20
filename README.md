@@ -39,32 +39,6 @@
 
 ---
 
-<!-- 🐍 Snake Contribution Animation -->
-<p align="center">
-<img src="https://github.com/mnsuhairil/mnsuhairil/blob/output/github-contribution-grid-snake.svg" />
-</p>
-
----
-
-### ⌨️ Coding Activity (WakaTime)
-<p align="center">
-  
-<!--START_SECTION:waka-->
-
-```txt
-From: 12 August 2025 - To: 19 August 2025
-
-Total Time: 0 secs
-
-No activity tracked
-```
-
-<!--END_SECTION:waka-->
-
-</p>
-
----
-
 <!-- 🌊 Animated Footer -->
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:6a5acd,100:ff4b5c&section=footer" />
