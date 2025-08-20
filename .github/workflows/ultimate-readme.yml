@@ -31,28 +31,6 @@ jobs:
           plugin_followup: yes
           plugin_stars: yes
 
-      # --- WakaTime coding stats ---
-      - name: Update WakaTime section
-        uses: athul/waka-readme@master
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TITLE: true
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-          
-
-      # --- Python utilities for tips/quotes/theme ---
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Update coding tip / quote / theme
-        run: |
-          python scripts/generate_coding_tip.py
-          python scripts/update_quote.py
-          python scripts/update_theme.py  
-
       # --- Commit & Push changes ---
       - name: Commit & push
         run: |
