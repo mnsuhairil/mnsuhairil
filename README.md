@@ -17,8 +17,10 @@
 <p align="center">
 <!-- Replace YOUR_SPOTIFY_UID below and optionally self-host, or keep as-is if you set up the action -->
 <a href="https://open.spotify.com/user/313kfxw7oviibu2joldqfimuvxly?si=ef16c2e29ef34fb6">
-<img src="https://spotify-github-profile.vercel.app/api/view?uid=ef16c2e29ef34fb6&cover_image=true&show_offline=true&background_color=0d1117&interchange=true&bar_color=6a5acd&bar_color_cover=true" width="420"/>
-</a>
+  ### 🎶 Now Playing on Spotify
+  <p align="center">
+    <img src="./spotify-metrics.svg" width="450" alt="Spotify Now Playing"/>
+  </p>
 </p>
 
 
