@@ -18,10 +18,11 @@ jobs:
       # --- 3D Contributions (fixed) ---
       - name: 3D Contributions
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        with:
+          username: mnsuhairil        # ✅ required
+          base: "header, calendar"
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          USERNAME: mnsuhairil
-          BASE: "header,calendar"
 
       # --- GitHub Metrics Dashboard ---
       - name: Generate Metrics
@@ -44,11 +45,11 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: spotify-metrics.svg
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}   # ✅ must contain client_id, client_secret & refresh_token
           base: ""
           plugin_music: yes
           plugin_music_provider: spotify
-          plugin_music_user: 313kfxw7oviibu2joldqfimuvxly   # <-- replace with your Spotify username
+          plugin_music_user: 313kfxw7oviibu2joldqfimuvxly   # <-- your Spotify UID
           plugin_music_limit: 1
           plugin_music_time: short
           plugin_music_top: 1
