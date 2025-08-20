@@ -12,16 +12,6 @@
 
 ---
 
-
-### 🖼️ 3D Contribution Graph
-<p align="center">
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="720"/>
-</p>
-
-
----
-
-
 ### 📊 Metrics Dashboard
 <p align="center">
 <img src="./github-metrics.svg" width="85%"/>
