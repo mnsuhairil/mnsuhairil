@@ -13,20 +13,6 @@
 ---
 
 
-### 🎧 Now Playing (Spotify)
-<p align="center">
-<!-- Replace YOUR_SPOTIFY_UID below and optionally self-host, or keep as-is if you set up the action -->
-<a href="https://open.spotify.com/user/313kfxw7oviibu2joldqfimuvxly?si=ef16c2e29ef34fb6">
-  ### 🎶 Now Playing on Spotify
-  <p align="center">
-    <img src="./spotify-metrics.svg" width="450" alt="Spotify Now Playing"/>
-  </p>
-</p>
-
-
----
-
-
 ### 🖼️ 3D Contribution Graph
 <p align="center">
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="720"/>
