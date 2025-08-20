@@ -2,7 +2,7 @@ name: ♻️ Ultimate README Updater
 
 on:
   schedule:
-    - cron: "13 1 * * *" # daily ~01:13 UTC
+    - cron: "0 1 * * *"  # daily ~01:13 UTC
   workflow_dispatch:
 
 permissions:
