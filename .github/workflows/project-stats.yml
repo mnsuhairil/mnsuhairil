@@ -31,8 +31,8 @@ jobs:
 
       - name: Generate Project Stats
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_LOGIN: mnsuhairil         # <-- your username
+          GH_TOKEN : ${{ secrets.GH_TOKEN  }}
+          GH_LOGIN : mnsuhairil         # <-- your username
           # Optional: comma-separated owner/name list to force-include
           INCLUDE_REPOS: ""                # e.g. "AffinBank/app-one,orgX/site"
           # Optional: only your own repos? (true/false)
