@@ -23,7 +23,7 @@ jobs:
         with:
           username: mnsuhairil
           base: "header,calendar" # create the folder profile-3d-contrib
-          env:
+        env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       
       
