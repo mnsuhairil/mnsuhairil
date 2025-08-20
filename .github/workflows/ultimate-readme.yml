@@ -1,6 +1,5 @@
 name: ♻️ Ultimate README Updater
 
-
 on:
   schedule:
     - cron: "13 1 * * *" # daily ~01:13 UTC
@@ -16,17 +15,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-
-# --- Generate 3D contribution images ---
+      # --- 3D Contributions ---
       - name: 3D Contributions
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         with:
           username: mnsuhairil
-          base: "header,calendar" # create the folder profile-3d-contrib
+          base: "header,calendar"
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-      
-      
+
       # --- GitHub Metrics Dashboard (requires classic PAT in GH_TOKEN) ---
       - name: Generate Metrics
         uses: lowlighter/metrics@latest
@@ -42,9 +39,8 @@ jobs:
           plugin_lines: yes
           plugin_followup: yes
           plugin_stars: yes
-      
-      
-      # --- WakaTime coding stats (needs WAKATIME_API_KEY) ---
+
+      # --- WakaTime coding stats ---
       - name: Update WakaTime section
         uses: athul/waka-readme@master
         with:
@@ -54,22 +50,20 @@ jobs:
           LANG_COUNT: 6
           SHOW_TOTAL: true
           STOP_AT_WEEK: true
-      
-      
+
       # --- Python utilities for tips/quotes/theme ---
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      
-      
+
       - name: Update coding tip / quote / theme
         run: |
           python scripts/generate_coding_tip.py
           python scripts/update_quote.py
           python scripts/update_theme.py  
-      
-      
+
+      # --- Commit & Push changes ---
       - name: Commit & push
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
