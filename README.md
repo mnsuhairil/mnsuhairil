@@ -42,20 +42,6 @@
 
 ---
 
-<!-- 📈 Project Contribution Stats -->
-### 📈 My Project Contributions  
-<p align="center">✨ Automatically updated twice a week with my commits, PRs, and issues ✨</p>
-
-<p align="center">
-  
-<!-- PROJECT_STATS:START -->
-_No repositories found._
-<!-- PROJECT_STATS:END -->
-
-</p>
-
----
-
 <!-- 🌌 Contribution Graph -->
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=mnsuhairil&theme=tokyo-night&bg_color=0d1117&color=ff4b5c&line=6a5acd&point=ffffff&hide_border=true&radius=16" />
