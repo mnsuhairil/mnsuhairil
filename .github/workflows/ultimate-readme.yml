@@ -24,7 +24,7 @@ jobs:
           username: mnsuhairil
           base: "header,calendar" # create the folder profile-3d-contrib
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       
       # --- GitHub Metrics Dashboard (requires classic PAT in GH_TOKEN) ---
