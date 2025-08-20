@@ -2,7 +2,7 @@ import os
 import requests
 
 # GitHub username
-USERNAME = "mnsuhairil"
+USERNAME = os.getenv("GH_LOGIN")
 
 # Token from GitHub Secrets
 TOKEN = os.getenv("GH_TOKEN")
