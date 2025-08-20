@@ -48,7 +48,6 @@ jobs:
           TIME_RANGE: last_7_days
           LANG_COUNT: 6
           SHOW_TOTAL: true
-          STOP_AT_WEEK: true
 
       # --- Python utilities for tips/quotes/theme ---
       - name: Set up Python
