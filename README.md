@@ -1,6 +1,6 @@
 <!-- 🌊 Animated Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:ff4b5c,100:6a5acd&text=Hey!%20I'm%20Su%20👋&fontAlign=50&fontAlignY=35&fontSize=40&fontColor=ffffff&desc=Software%20Developer%20%7C%20Flutter%20%7C%20Web%20%7C%20Game%20Dev&descAlignY=55&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:ff4b5c,100:6a5acd&text=Hey!%20I'm%20Su%20👋&fontAlign=50&fontAlignY=35&fontSize=40&fontColor=ffffff&desc=Software%20Developer%20%7C%20Mobile%20%7C%20Website%20%7C%20Dev&descAlignY=55&animation=fadeIn" />
 </p>
 
 ---
