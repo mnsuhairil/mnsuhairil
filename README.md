@@ -14,7 +14,7 @@
 
 <!-- 🎇 Floating Badges on Animated BG -->
 <p align="center">
-  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" width="100%" />
+  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" width="100%" color="#0000FF" />
 </p>
 
 <p align="center">
