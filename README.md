@@ -66,7 +66,7 @@
 
 <!-- 🌌 Contribution Chart -->
 <p align="center">
-  <img width="90%" src="https://ghchart.rshah.org/6a5acd/mnsuhairil" alt="mnsuhairil's contribution chart" />
+  <img width="90%" src="https://ghchart.rshah.org/4c1d95/mnsuhairil" alt="mnsuhairil's contribution chart" />
 </p>
 
 <!-- ───────────────────────────────────────────────────────────────
