@@ -26,11 +26,10 @@
 
 ---
 
-<!-- 📊 GitHub Stats -->
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mnsuhairil&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&hide=prs,issues,contribs&custom_title=Public%20Repo%20Stats" />
-  <img height="170" src="https://streak-stats.demolab.com?user=mnsuhairil&theme=radical&hide_border=true"/>
-</div>
+<!-- 📊 GitHub Stats — all repositories, public and private -->
+<p align="center">
+  <img height="180" src="https://streak-stats.demolab.com?user=mnsuhairil&theme=radical&hide_border=true"/>
+</p>
 
 <!-- 🧮 All-time profile summary -->
 <p align="center">
