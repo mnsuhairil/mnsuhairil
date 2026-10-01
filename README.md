@@ -31,6 +31,19 @@
   <img height="180" src="https://streak-stats.demolab.com?user=mnsuhairil&theme=radical&hide_border=true"/>
 </p>
 
+<!-- All-repo totals (public + private), measured 1 Oct 2026 via the GitHub GraphQL API.
+     These are static badges: refresh the numbers periodically, or replace this block with
+     the Metrics Dashboard once the GH_TOKEN secret is live. -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Total%20Commits-1%2C324-6a5acd?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pull%20Requests-549-ff4b5c?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Issues%20Opened-262-6a5acd?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Code%20Reviews-14-ff4b5c?style=for-the-badge&logo=gitbook&logoColor=white" />
+</p>
+<p align="center">
+  <sub>Totals across all repositories, public and private · as of October 2026</sub>
+</p>
+
 <!-- 🧮 All-time profile summary -->
 <p align="center">
   <img width="85%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mnsuhairil&theme=radical" />
