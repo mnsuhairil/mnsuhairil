@@ -7,15 +7,14 @@
 
 <!-- ⌨️ Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=26&duration=2500&pause=1000&color=6A5ACD&center=true&vCenter=true&width=700&lines=Crafting+Clean+UIs;Mobile+%26+Web+Developer;Multi+Programming+Language;Always+Learning+%26+Exploring" />
+  <img src="https://readme-typing-svg.demolab.com?size=26&duration=2500&pause=1000&color=6A5ACD&center=true&vCenter=true&width=700&lines=Crafting+Clean+UIs;Mobile+%26+Web+Developer;Multi+Programming+Language;Always+Learning+%26+Exploring" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=mnsuhairil&label=Profile%20Views&color=6a5acd&style=for-the-badge" />
 </p>
 
 ---
-
-<!-- 🎇 Floating Badges on Animated BG -->
-<p align="center">
-  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" width="100%" color="#0000FF" />
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?&style=for-the-badge&logo=flutter&logoColor=white" />
@@ -29,38 +28,50 @@
 
 <!-- 📊 GitHub Stats -->
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mnsuhairil&show_icons=true&theme=radical&hide_border=true&count_private=true" />
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=mnsuhairil&theme=radical&hide_border=true"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mnsuhairil&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&hide=prs,issues,contribs&custom_title=Public%20Repo%20Stats" />
+  <img height="170" src="https://streak-stats.demolab.com?user=mnsuhairil&theme=radical&hide_border=true"/>
+</div>
+
+<!-- 🧮 All-time profile summary -->
+<p align="center">
+  <img width="85%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mnsuhairil&theme=radical" />
+</p>
+
+---
+
+<!-- 🧠 Languages & habits -->
+<div align="center">
+  <img height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mnsuhairil&layout=compact&theme=radical&hide_border=true&langs_count=8" />
+  <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mnsuhairil&theme=radical" />
+</div>
+
+<div align="center">
+  <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mnsuhairil&theme=radical" />
+  <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mnsuhairil&theme=radical&utcOffset=8" />
 </div>
 
 ---
 
-### 📊 Metrics Dashboard
+<!-- 🌌 Contribution Chart -->
 <p align="center">
-<img src="./github-metrics.svg" width="85%"/>
+  <img width="90%" src="https://ghchart.rshah.org/6a5acd/mnsuhairil" alt="mnsuhairil's contribution chart" />
 </p>
 
----
+<!-- ───────────────────────────────────────────────────────────────
+     DISABLED 1 Oct 2026 — both hosts return 402 Payment Required
+     (maintainers' Vercel deployments are over quota). Recheck and
+     uncomment to restore, or self-host.
 
-<!-- 🌌 Contribution Graph -->
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=mnsuhairil&theme=tokyo-night&bg_color=0d1117&color=ff4b5c&line=6a5acd&point=ffffff&hide_border=true&radius=16" />
 </p>
 
----
-
-<!-- 🏆 Achievements -->
 ### 🏆 My GitHub Achievements
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=mnsuhairil&theme=radical&no-frame=true&column=7" />
 </p>
+     ─────────────────────────────────────────────────────────────── -->
 
----
-
-### 😂 Dev Joke of the Day
-<p align="center">
-<img src="https://readme-jokes.vercel.app/api?theme=radical" alt="Jokes Card"/>
-</p>
 <!-- 🌊 Animated Footer -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:6a5acd,100:ff4b5c&section=footer" />
