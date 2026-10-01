@@ -10,10 +10,6 @@
   <img src="https://readme-typing-svg.demolab.com?size=26&duration=2500&pause=1000&color=6A5ACD&center=true&vCenter=true&width=700&lines=Crafting+Clean+UIs;Mobile+%26+Web+Developer;Multi+Programming+Language;Always+Learning+%26+Exploring" />
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mnsuhairil&label=Profile+Views&color=6a5acd&style=for-the-badge" />
-</p>
-
 ---
 
 <p align="center">
